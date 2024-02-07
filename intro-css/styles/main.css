@@ -1,0 +1,74 @@
+/* @font-face {
+  font-family: "Protest Riot";
+  font-style: normal;
+  src: url("fonts/ProtestRiot-Regular.ttf") format("ttf");
+}
+ */
+
+/* Por etiquetas */
+h1 {
+  color: red;
+  background-color: yellow;
+}
+/* Por clase */
+.menu {
+  background-color: blue;
+}
+
+/* Por Id */
+#usuario1 {
+  color: green;
+  font-size: 30px;
+  font-family: Arial;
+}
+
+.caja-negra .recuadro p {
+  font-size: 40px;
+}
+
+#usuario1 span.correo {
+  color: blue;
+}
+
+.login {
+  background-color: #00b894;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Arial;
+  color: white;
+  border-radius: 5px;
+  border: 1px dashed black;
+}
+
+.login:hover {
+  background-color: #636e72;
+}
+
+div {
+  color: yellow;
+}
+
+#userMenu li:last-child {
+  background-color: rgb(108, 92, 231);
+  font-family: "Protest Riot", sans-serif;
+}
+
+#userMenu li {
+  background-color: #efefef;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  list-style: none;
+  text-transform: capitalize;
+  padding: 5px;
+  text-align: left;
+}
+
+#userMenu li:hover {
+  font-weight: 600;
+  text-decoration: underline dotted red;
+  /* text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: dotted; */
+  cursor: pointer;
+  background-color: #dfe6e9;
+}
