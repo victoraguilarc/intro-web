@@ -1,9 +1,12 @@
-/* @font-face {
-  font-family: "Protest Riot";
-  font-style: normal;
-  src: url("fonts/ProtestRiot-Regular.ttf") format("ttf");
+/* Fuentes generadas con: https://www.fontconverter.io/ */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/BebasNeue-Regular.otf") format("otf"), /* Safari, Android, iOS */
+       url("../fonts/BebasNeue-Regular.woff") format("woff"), /* Navedores modernos */
+       url("../fonts/BebasNeue-Regular.woff2") format("woff2"); /* Navegadores uktra modernos */
 }
- */
+
 
 /* Por etiquetas */
 h1 {
@@ -50,7 +53,7 @@ div {
 
 #userMenu li:last-child {
   background-color: rgb(108, 92, 231);
-  font-family: "Protest Riot", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 #userMenu li {
