@@ -1,0 +1,37 @@
+
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+}
+
+main .history {
+  background: lime;
+  width: 50%;
+}
+
+main .conversation {
+  background: blue;
+  width: 50%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+main .account {
+  display: flex;
+  flex-direction: row;
+}
+
+main .account img {
+  width: 50px;
+  height: 50px;
+}
+
+.account .username p {
+  padding: 0;
+}
